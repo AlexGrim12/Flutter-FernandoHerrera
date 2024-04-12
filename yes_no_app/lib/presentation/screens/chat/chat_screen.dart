@@ -50,7 +50,7 @@ class _ChatView extends StatelessWidget {
                 boxShadow: [
                   BoxShadow(
                     blurRadius: 100,
-                    color: Theme.of(context).colorScheme.inverseSurface.withOpacity(.3),
+                    color: Theme.of(context).colorScheme.inverseSurface.withOpacity(.15),
                   ),
                 ],
               ),
