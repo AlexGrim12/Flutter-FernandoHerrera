@@ -45,7 +45,17 @@ class _ChatView extends StatelessWidget {
                 },
               ),
             ),
-             const MessageFieldBox()
+            Container(
+              decoration: BoxDecoration(
+                boxShadow: [
+                  BoxShadow(
+                    blurRadius: 100,
+                    color: Theme.of(context).colorScheme.inverseSurface.withOpacity(.3),
+                  ),
+                ],
+              ),
+              child: const MessageFieldBox(),
+            )
           ],
         ),
       ),

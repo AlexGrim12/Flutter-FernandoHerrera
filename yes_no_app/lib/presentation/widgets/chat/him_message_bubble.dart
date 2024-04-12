@@ -14,11 +14,11 @@ class HimMessageBubble extends StatelessWidget {
           decoration: BoxDecoration(
               color: colors.secondaryContainer,
               borderRadius: BorderRadius.circular(20)),
-          child: const Padding(
+          child: Padding(
             padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
             child: Text(
               'Hola Mundo',
-              style: TextStyle(color: Colors.white),
+              style: TextStyle(color: colors.inverseSurface),
             ),
           ),
         ),

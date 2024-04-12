@@ -29,6 +29,7 @@ class MessageFieldBox extends StatelessWidget {
 
     return Column(
       children: [
+        const SizedBox(height: 4),
         TextFormField(
           onTapOutside: (event) {
             FocusManager.instance.primaryFocus?.unfocus();
